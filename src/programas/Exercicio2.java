@@ -1,3 +1,4 @@
+package programas;
 import java.util.Scanner;
 
 import classes.Produto;
@@ -28,7 +29,7 @@ public class Exercicio2 {
 
             Produto p = new Produto(nome, quantidade, valor);
             p.setValorTotal(quantidade * valor);
-            
+
             produto[i] = p;
 
             valorVenda += (quantidade * valor);   
